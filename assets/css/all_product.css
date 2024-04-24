@@ -1,0 +1,121 @@
+.main-content {
+  width: 1200px;
+}
+.container {
+  margin-top: 100px;
+}
+.main-content .dieuhuong {
+  margin-bottom: 15px;
+}
+.main-content .dieuhuong a {
+  color: black;
+}
+.body.all-product {
+  display: flex;
+}
+/* Menu */
+.body.all-product .menu-all-product {
+  position: relative;
+  width: 25%;
+}
+.menu-all-product h3 {
+  position: absolute;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  background-color: #0093e9;
+  border-radius: 20px;
+  width: 100%;
+  color: white;
+}
+.menu-all-product__list {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.menu-all-product__list li {
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+.menu-all-product__list li:last-child {
+  border-bottom: none;
+}
+.menu-all-product__list li:first-child {
+  padding-top: 10px;
+}
+.menu-all-product__list .active {
+  background-color: #cffafe;
+  border-radius: 10px;
+}
+.menu-all-product__list a {
+  display: block;
+  padding: 20px 20px;
+  font-size: 1.8rem;
+  color: black;
+}
+.menu-all-product__list a:hover {
+  color: var(--primary-color);
+  text-shadow: 1px 0px 0px white;
+}
+/* sản phẩm */
+.body-all-product .all-product {
+  width: 75%;
+}
+.all-product-item {
+  display: flex;
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px 80px 10px 20px;
+  border-radius: 10px;
+  background: #f9fafb;
+}
+.all-product-item .image img {
+  width: 200px;
+  object-fit: cover;
+}
+
+.all-product-item {
+  margin-left: 80px;
+}
+.all-product-item ~ .all-product-item {
+  margin-top: 15px;
+}
+.all-product-item .product-info {
+  padding-top: 15px;
+}
+.all-product-item .product-info .price {
+  margin-top: 30px;
+}
+.all-product-item .product-info-btn {
+  margin-top: 40px;
+}
+.all-product-item .product-info-btn .btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  color: white;
+}
+.product-info-btn input[type="number"] {
+  display: inline-block;
+  width: 40px;
+  padding: 7px 0px;
+  outline: none;
+  margin-right: 15px;
+}
+.all-product-item .product-info-btn .Dathang.btn.cart {
+  font-size: 1.6rem;
+  outline: none;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+.all-product-item .product-info-btn .btn:hover {
+  opacity: 0.7;
+}
+.all-product-item .product-info-btn .cart {
+  margin-right: 10px;
+}
